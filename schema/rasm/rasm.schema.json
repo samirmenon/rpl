@@ -1,14 +1,14 @@
 {
   "$schema" : "http://json-schema.org/draft-04/schema#",
   "title" : "rpl::rasm",
-  "description" : "This is the schema for a basic rpl assembly command",
+  "description" : "This is the schema for a basic rpl robot assembly command",
   "type" : "object",
   "properties" : {
     "command" : { "type" : "string" },
     "params"  : { "type" : "object" },
     "type"    : { "type" : "string" },
     "meta"    : {
-      "description" : "A short text description of the rpl asm command",
+      "description" : "A short text description of the rpl robot assembly command",
       "type" : "string"
     }
   },

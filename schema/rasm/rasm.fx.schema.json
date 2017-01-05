@@ -44,7 +44,7 @@
     },
     "type"    : { "type" : "string" },
     "meta"    : {
-      "description" : "A short text description of the rpl asm command",
+      "description" : "A short text description of the rpl robot assembly command",
       "type" : "string"
     }
   },

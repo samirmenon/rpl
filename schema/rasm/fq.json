@@ -1,0 +1,10 @@
+{
+  "command" : "fq",
+  "type" : "rasm",
+  "params" : {
+    "n-gc" : 5,
+    "f" : [1, 0, 0, 0.1, 0.7],
+    "t" : 1.2
+  },
+  "meta" : "An exemplar object for the <force gc> rpl assembly command. Supports gc (joint) forces."
+}

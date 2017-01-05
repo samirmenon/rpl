@@ -1,0 +1,14 @@
+{
+  "command" : "fx6",
+  "type" : "rasm",
+  "params" : {
+    "f" : [1, 0, 0, 0.2, 0.1, 0.3],
+    "t" : 1.2,
+    "frame" : {
+      "rb" : "link4",
+      "R" : [1, 0, 0, 0, 1, 0, 0, 0, 1],
+      "p" : [0, 0, 0]
+    }
+  },
+  "meta" : "An exemplar object for the <force 6d> rpl assembly command. Supports 6-axis forces."
+}

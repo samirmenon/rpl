@@ -1,0 +1,40 @@
+[
+  {
+    "command" : "fx3",
+    "type" : "rasm",
+    "params" : {
+      "f" : [1, 0, 0],
+      "t" : 1.2,
+      "frame" : {
+        "rb" : "link4",
+        "R" : [1, 0, 0, 0, 1, 0, 0, 0, 1],
+        "p" : [0, 0, 0]
+      }
+    },
+    "meta" : "Force-3d rasm command; xyz (3d) forces at a frame transform wrt. rigid body's frame."
+  },
+  {
+    "command" : "fx3",
+    "type" : "rasm",
+    "params" : {
+      "f" : [1, 0, 0],
+      "t" : 3.2,
+      "frame" : {
+        "rb" : "link4",
+        "ori-rb" : "ground",
+        "p" : [0, 0, 0]
+      }
+    },
+    "meta" : "Applies forces in the ground frame."
+  },
+  {
+    "command" : "fx3",
+    "type" : "rasm",
+    "params" : {
+      "f" : [1, 0.1, 0],
+      "t" : 3.2,
+      "s" : [0, 1, 1]
+    },
+    "meta" : "Applies forces in the link's frame with a selection vector `s`. i.e., only y-axis for this object"
+  }
+]

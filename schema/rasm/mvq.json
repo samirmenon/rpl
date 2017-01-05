@@ -1,0 +1,11 @@
+{
+  "command" : "mvq",
+  "type" : "rasm",
+  "params" : {
+    "n-gc" : 5,
+    "disp-q" : [1, 0, 0, 0, 0],
+    "max-dq" : [0.1, 1, 1, 1, 1],
+    "max-ddq" : [9.8, 9.8, 9.8, 3.8, 1]
+  },
+  "meta" : "An exemplar object for the <move joint> rpl assembly command. Supports joint-space (gc) motions."
+}

@@ -1,0 +1,52 @@
+{
+  "$schema" : "http://json-schema.org/draft-04/schema#",
+  "title" : "rpl::rasm",
+  "description" : "This is the schema for a basic rpl assembly command",
+  "type" : "object",
+  "properties" : {
+    "command" : { "type" : "string" },
+    "params"  : {
+      "type" : "object",
+      "properties" : {
+        "f" : {
+          "type" : "array",
+          "items" : { "type" : "number" },
+          "maxItems" : 6,
+        },
+        "t" : { "type" : "number"} ,
+        "s" : {
+          "type" : "array",
+          "items" : { "type" : "number" },
+          "maxItems" : 6,
+        },
+        "frame" : {
+          "type" : "object",
+          "properties" : {
+            "rb" : { "type" : "string" },
+            "ori-rb" : { "type" : "string" },
+            "R" : {
+              "type" : "array",
+              "items" : { "type" : "number" },
+              "minItems" : 9,
+              "maxItems" : 9,
+            },
+            "p" : {
+              "type" : "array",
+              "items" : { "type" : "number" },
+              "minItems" : 3,
+              "maxItems" : 3,
+            }
+          },
+          "required" : ["rb"]
+        }
+      },
+      "required" : ["f", "t"]
+    },
+    "type"    : { "type" : "string" },
+    "meta"    : {
+      "description" : "A short text description of the rpl asm command",
+      "type" : "string"
+    }
+  },
+  "required" : ["command", "type", "params"]
+}

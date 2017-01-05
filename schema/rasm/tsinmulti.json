@@ -1,0 +1,15 @@
+{
+  "command" : "tsinmulti",
+  "type" : "rasm",
+  "params" : {
+    "axis" : [[1, 0, 0], [0, 1, 0]],
+    "ampl" : [1, 0.3],
+    "freq" : [1.2, 2,1],
+    "frame" : {
+      "rb" : "link4",
+      "R" : [1, 0, 0, 0, 1, 0, 0, 0, 1],
+      "p" : [0, 0, 0]
+    }
+  },
+  "meta" : "Sine-wave motion rasm command; along one or more axes of a specific frame."
+}

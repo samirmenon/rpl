@@ -4,7 +4,8 @@
   "params" : {
     "disp-x" : [1, 0, 0],
     "max-dx" : [0.1, 1, 1],
-    "max-ddx" : [9.8, 9.8, 9.8]
+    "max-ddx" : [9.8, 9.8, 9.8],
+    "frame" : { "rb" : "link4" }
   },
   "meta" : "An exemplar object for the <move 3d> rpl assembly command. Supports xyz (3d) motions."
 }

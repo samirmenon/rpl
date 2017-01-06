@@ -3,6 +3,7 @@
   "type" : "rasm",
   "params" : {
     "axis" : [1, 0, 0],
+    "frame" : { "rb" : "link4" },
     "poke-dist" : 0.1
   },
   "meta" : "An exemplar object for the poke rpl assembly command. Pokes along axis and returns."
